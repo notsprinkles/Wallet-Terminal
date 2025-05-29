@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  font-family: 'Courier New', monospace;
+  background-color: #0d0d0d;
+  color: #39ff14;
+  padding: 2rem;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #da26da;
+  text-shadow: 0 0 10px #da26da, 0 0 20px #da26da;
+  margin-bottom: 1rem;
+}
+
+button {
+  background-color: black;
+  color: #da26da;
+  border: 2px solid #da26da;
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-family: inherit;
+  border-radius: 6px;
+  cursor: pointer;
+  text-shadow: 0 0 5px #da26da;
+  box-shadow: 0 0 8px #da26da, 0 0 16px #da26da inset;
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #da26da;
+  color: black;
+  text-shadow: none;
+  box-shadow: 0 0 8px #ffffff, 0 0 16px #ffffff inset;
+}
+
+code {
+  display: block;
+  background-color: #000;
+  padding: 12px;
+  margin: 12px 0;
+  border-left: 4px solid #da26da;
+  border-radius: 4px;
+  color: #00ffcc;
+  font-size: 0.95rem;
+  box-shadow: 0 0 10px #da26da44;
+  animation: flicker 1.5s infinite alternate;
+  white-space: break-spaces;
+  word-break: break-word;
+}
+
+@keyframes flicker {
+  0% { opacity: 1; }
+  100% { opacity: 0.85; }
+}
+
+pre.terminal-line {
+  font-family: 'Courier New', monospace;
+  font-size: 0.95rem;
+  color: #00ffcc;
+  white-space: pre-wrap;
+  margin: 4px 0;
+}
+
+.blinking-cursor {
+  animation: blink 1s step-end infinite;
+  color: #da26da;
+}
+
+@keyframes blink {
+  from, to { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.terminal {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #000;
+  border: 2px solid #da26da;
+  box-shadow: 0 0 15px #da26da;
+  font-family: 'Courier New', monospace;
+  padding: 1rem;
+  color: #00ff00;
+  border-radius: 10px;
+}
+
+.terminal-header,
+.terminal-footer {
+  font-size: 0.9rem;
+  color: #da26da;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  text-shadow: 0 0 5px #da26da;
+}
+
+.terminal-body {
+  padding: 1rem;
+  background-color: #0a0a0a;
+  border: 1px solid #222;
+  height: auto;
+  min-height: 300px;
+  overflow-y: auto;
+  box-shadow: inset 0 0 10px #00ffcc33;
+}
+
+button {
+  margin-top: 1rem;
+}
