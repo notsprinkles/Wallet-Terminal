@@ -1,4 +1,5 @@
 # 🧪 Wallet Terminal Generator
+![image](https://github.com/user-attachments/assets/d96e74be-1b21-44f6-89e8-d4e3b886fdc9)
 
 A glowing, hacker-themed Ethereum wallet generator with animated terminal UI, entropy boot-up, typewriter effects, and 💔 vibes powered by `#da26da`.
 
