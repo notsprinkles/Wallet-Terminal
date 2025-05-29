@@ -62,16 +62,6 @@ Select this repo
 
 Deploy!
 
-💡 To-Do / Ideas
- 💾 Export wallet as .json file
-
- 🎁 Add testnet faucet integration
-
- 🌐 ENS or IPFS deployment
-
- 🧬 Smart contract interaction (dApp mode)
-
- 🧱 Offline PWA build
 
 ⚠️ Disclaimer
 This app is for educational / demo purposes only. Wallets are generated client-side, but always use trusted tools for real assets. You are responsible for your keys.
