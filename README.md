@@ -39,7 +39,7 @@ A glowing, hacker-themed Ethereum wallet generator with animated terminal UI, en
 git clone https://github.com/YOUR_USERNAME/wallet-terminal.git
 cd wallet-terminal
 npm install
-npm start
+npm start```
 
 📤 Deploy Your Own
 Push to GitHub
